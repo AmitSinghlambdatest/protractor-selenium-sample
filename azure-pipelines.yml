@@ -22,8 +22,8 @@ steps:
     connection: 'LT Tunnel'
     isTunnelActivate: true
   env:
-    LT_USERNAME: amitkslambdatest
-    LT_ACCESS_KEY: ZK27KD00E5dag50FKkodeVLGXQSUwGlM8AW6SKbc5o4UElpLmv
+    LT_USERNAME: 'amitkslambdatest'
+    LT_ACCESS_KEY: 'ZK27KD00E5dag50FKkodeVLGXQSUwGlM8AW6SKbc5o4UElpLmv'
 - script: |
     npm install
     npm run single
