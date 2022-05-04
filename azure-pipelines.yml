@@ -27,5 +27,6 @@ steps:
 - script: |
     npm install
     npm run single
+  continueOnError: true
   displayName: 'npm install and build'
 - task: stoptunnel@1
