@@ -12,6 +12,7 @@ exports.config = {
     'browserName': 'chrome',
     'version':'latest',
     'platform': 'Windows 10',
+    'tunnel': true,
   },
   onPrepare: () => {
 
