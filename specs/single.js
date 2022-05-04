@@ -4,7 +4,10 @@ describe('Add todo Lists', function () {
 
     it('Add Customer Test', function () {
 
-
+        browser.get('https://nordvpn.com/what-is-my-ip/');
+	    var delayInMilliseconds = 4000;
+        browser.get('http://localhost.lambdatest.com/dashboard/');
+	    var delayInMilliseconds = 4000;
         browser.get('https://lambdatest.github.io/sample-todo-app/');
 
 	browser.driver.findElement(by.name('li1')).then(function (foundElement) {
